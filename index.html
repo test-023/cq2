@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Captain Quack</title>
+    <link rel="stylesheet" type="text/css" href="select-style/css/style.css" />
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<header>
+			<a href="/"><img src="img/captain-quack.png" alt="Captain Quack"></a>
+		</header>
+		<main>
+			<h1>¡Ay caramba!</h1>
+			<section>
+				<form class="form" action="">
+					<fieldset>
+						<div>
+							<input id="name" placeholder="Название" type="text">
+						</div>
+						<div>
+							<input id="year" placeholder="Год" type="text">
+						</div>
+						<div>
+							<label for="price">Цена</label>
+					    <input id="price" type="text">
+						</div>
+					</fieldset>
+					<input id="desc" placeholder="Описание" type="text">
+					<fieldset>
+						<div class="colors">
+              <p>Цвет</p>
+              <input class="radio" id="color-1" type="radio" name="color" required>
+          		<label for="color-1"></label>
+
+          		<input class="radio" id="color-2" type="radio" name="color" required>
+          		<label for="color-2"></label>
+
+              <input class="radio" id="color-3" type="radio" name="color" required>
+          		<label for="color-3"></label>
+
+          		<input class="radio" id="color-4" type="radio" name="color" required>
+          		<label for="color-4"></label>
+
+              <input class="radio" id="color-5" type="radio" name="color" required>
+          		<label for="color-5"></label>
+						</div>
+						<div>
+              <select class="turnintodropdown">
+                <option>Статус</option>
+                <option>В наличии</option>
+                <option>Ожидается</option>
+                <option>Нет в наличии</option>
+              </select>
+						</div>
+						<div>
+							<button type="submit" class="btn">Отправить <span>&#8250;</span></button>
+						</div>
+					</fieldset>
+				</form>
+			</section>
+
+	    <section>
+				<h2>Автомобили в наличии</h2>
+        <div class="table-auto">
+        	<div class="row">
+        		<div class="col-1">
+        		  Наименование
+        		 </div>
+        		<div class="col-2">
+        		  Год
+        		 </div>
+             <div class="col-3">
+         		  Цвет
+         		 </div>
+             <div class="col-4">
+         		  Статус
+         		 </div>
+             <div class="col-5">
+         		  Цена
+         		 </div>
+             <div class="col-6">&nbsp;</div>
+        	</div>
+          <div class="row">
+        		<div class="col-1">
+        		  <span>1.6 MT Ambiente 85 л.с. МКПП</span>
+              <span>+ доп. опция «Радио-навигационная система Amundasen 2DIN, CD, MP3</span>
+        		 </div>
+        		<div class="col-2">
+        		  2012
+        		 </div>
+             <div class="col-3">
+         		  <span class="color-2"></span>
+         		 </div>
+             <div class="col-4">
+         		  Ожидается
+         		 </div>
+             <div class="col-5">
+         		  1 689 000 руб.
+         		 </div>
+             <div class="col-6">
+         		  <button>Удалить</button>
+         		 </div>
+        	</div>
+          <div class="row">
+        		<div class="col-1">
+        		  <span>1.6 PowerShift Trend Sport 105 л.с. АКПП</span>
+        		 </div>
+        		<div class="col-2">
+        		  2012
+        		 </div>
+             <div class="col-3">
+         		  <span class="color-1"></span>
+         		 </div>
+             <div class="col-4">
+         		  Ожидается
+         		 </div>
+             <div class="col-5">
+         		  1 689 000 руб.
+         		 </div>
+             <div class="col-6">
+         		  <button>Удалить</button>
+         		 </div>
+        	</div>
+          <div class="row">
+        		<div class="col-1">
+        		  <span>1.6 MT Ambiente 85 л.с. МКПП</span>
+        		 </div>
+        		<div class="col-2">
+        		  2012
+        		 </div>
+             <div class="col-3">
+         		  <span class="color-2"></span>
+         		 </div>
+             <div class="col-4">
+         		  В наличии
+         		 </div>
+             <div class="col-5">
+         		  1 689 000 руб.
+         		 </div>
+             <div class="col-6">
+         		  <button>Удалить</button>
+         		 </div>
+        	</div>
+          <div class="row">
+        		<div class="col-1">
+        		  <span>1.6 PowerShift Trend Sport 105 л.с. АКПП</span>
+              <span>+ доп. опция «Радио-навигационная система Amundasen 2DIN, CD, MP3</span>
+        		 </div>
+        		<div class="col-2">
+        		  2012
+        		 </div>
+             <div class="col-3">
+         		  <span class="color-3"></span>
+         		 </div>
+             <div class="col-4">
+         		  Нет в наличии
+         		 </div>
+             <div class="col-5">
+         		  1 689 000 руб.
+         		 </div>
+             <div class="col-6">
+         		  <button>Удалить</button>
+         		 </div>
+        	</div>
+          <div class="row">
+        		<div class="col-1">
+        		  <span>1.6 MT Ambiente 85 л.с. МКПП</span>
+        		 </div>
+        		<div class="col-2">
+        		  2012
+        		 </div>
+             <div class="col-3">
+         		  <span class="color-4"></span>
+         		 </div>
+             <div class="col-4">
+         		  Ожидается
+         		 </div>
+             <div class="col-5">
+         		  1 689 000 руб.
+         		 </div>
+             <div class="col-6">
+         		  <button>Удалить</button>
+         		 </div>
+        	</div>
+          <div class="row">
+        		<div class="col-1">
+        		  <span>1.6 PowerShift Trend Sport 105 л.с. АКПП</span>
+              <span>+ доп. опция «Радио-навигационная система Amundasen 2DIN, CD, MP3</span>
+        		 </div>
+        		<div class="col-2">
+        		  2012
+        		 </div>
+             <div class="col-3">
+         		  <span class="color-5"></span>
+         		 </div>
+             <div class="col-4">
+         		  Нет в наличии
+         		 </div>
+             <div class="col-5">
+         		  1 689 000 руб.
+         		 </div>
+             <div class="col-6">
+         		  <button>Удалить</button>
+         		 </div>
+        	</div>
+        </div>
+	    </section>
+	  </main>
+    <footer>
+      © 2015 Captain Quack
+      <p>Десница тысячелетия и моллюск!</p>
+    </footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type='text/javascript' src='select-style/js/select.js'></script>
+  </body>
+</html>

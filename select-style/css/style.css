@@ -1,0 +1,116 @@
+<!--
+////////////////////////////////////////
+////           Демо #1              ////
+////////////////////////////////////////
+-->
+
+.dropcontainer {
+	position:relative;
+	}
+
+.trigger {
+	width: 100%;
+	height: 40px;
+  border: 1px solid #dcdcdc;
+  border-bottom: 2px solid #dcdcdc;
+  font-size: 12px;
+  color: #999;
+	padding: 12px 0 0 10px;
+	background: #fff url(../images/select-arrow-open.png) 96% center no-repeat;
+	display: block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	}
+
+.trigger:hover {
+	background: url(../images/select-arrow-open.png) 96% center no-repeat;
+	border-bottom: 2px solid #c4092f;
+	}
+
+.activetrigger {
+	width: 100%;
+	height: 40px;
+  border: 1px solid #dcdcdc;
+  border-bottom: 2px solid #282d30;
+	font-size: 12px;
+  color: #999;
+	padding: 12px 0 0 10px;
+	background: url(../images/select-arrow-close.png) 96% center no-repeat;
+	display: block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+
+.activetrigger:hover {
+	background: url(../images/select-arrow-close.png) 96% center no-repeat;
+	}
+
+.activetrigger:active {
+	background: url(../images/select-arrow-close.png) 96% center no-repeat;
+	}
+
+.dropcontainer {
+	position: relative;
+	width: 100%;
+}
+
+.dropcontainer ul {
+	position: absolute;
+	border: 1px solid #dcdcdc;
+	border-top: none;
+	background: #fff;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	z-index: 100;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+
+.dropcontainer ul li {
+	width: 100%;
+	padding: 7px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	}
+
+.dropcontainer ul li a {
+	font-size: 12px;
+  color: #999;
+}
+
+.dropcontainer ul li:hover {
+	outline: none;
+	}
+
+.dropcontainer ul li:hover a {
+	color: #282d30;
+	}
+
+.dropcontainer ul li:first-child {
+	display: none;
+	}
+
+.dropcontainer ul li:last-child {
+	border-bottom: none;
+	padding-bottom: 13px;
+	}
+
+.dropdownhidden {
+	display: none;
+	}
+
+.dropdownvisible {
+	width: 100%;
+	height: auto;
+	}
